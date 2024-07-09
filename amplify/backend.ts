@@ -43,5 +43,7 @@ backend.addOutput({
     aws_region: authStack.region,
     model_introspection: schema,
     default_authorization_type: 'AMAZON_COGNITO_USER_POOLS',
+    url: 'https://jr77i6ydcrhdfndgivmlpgmnhy.appsync-api.us-west-2.amazonaws.com/graphql',
+    authorization_types: ['AMAZON_COGNITO_USER_POOLS'],
   }
 })
